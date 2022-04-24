@@ -1,0 +1,155 @@
+body{
+    background-color: aqua;
+    margin:0px;
+}
+.main{
+    display: flex;
+}
+.side-bar{
+    width: 23%;
+    background-color: blueviolet;
+    position: fixed;
+    height: 100%;
+}
+.content-page{
+    width: 77%;
+    margin-left: 23%;
+    /* height: 350px; */
+}
+
+.bannar{
+    height: 350px;
+    background-image: url(img/backimg.jpg);
+}
+
+.overlay{
+    background-color: #30323275;
+}
+.profile-content {
+    padding: 40px;
+}
+.profile img {
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.profile h6 {
+    margin-top: 0px;
+}
+
+.profile h4 {
+    margin-bottom: 0px;
+}
+.profile {
+    color: white;
+}
+
+.navigation-content ul {
+    margin: 0;
+    padding: 0;
+}
+.socialicon-content {
+    position: absolute;
+    bottom: 20;
+    left: 25%;
+}
+.socialicon-content a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.navigation-content ul li {
+    padding: 10px 40px;
+    list-style-type: none;
+}
+.navigation-content li a {
+    text-decoration: none;
+    color: white;
+}
+.navigation-content ul li:hover {
+    background: black;
+    color: wheat;
+}
+.socialicon-content a:hover {
+    background: black;
+    color: wheat;
+    padding: 10px;
+    border-radius: 50%;
+}
+.text-banr {
+    margin: auto;
+    width: 500px;
+    padding: 100px;
+    color: white;
+}
+.profile-section {
+    margin: 20px 80px;
+}
+.gallery-section {
+    margin: 20px 80px;
+}
+/* .profile-content-sec img{
+    width: 860px;
+} */
+.gallery {
+    text-align: center;
+}
+
+.gallery-frist-row{
+display: flex;
+margin-bottom: 20px;
+}
+.gallery-frist-box{
+    width: 25%;
+}
+
+.gallery-second-box{
+    width: 25%;
+}
+
+.gallery-thrid-box{
+    width: 25%;
+}
+
+.gallery-fourth-box{
+    width: 25%;
+}
+
+.gallery-second-row{
+    display: flex;
+    margin-bottom: 20px;
+    }
+
+.blogs-section {
+        margin: 20px 80px;
+    }
+
+    .blogs {
+        text-align: center;
+    }
+    
+    .blogs-frist-row{
+    display: flex;
+    margin-bottom: 20px;
+    }
+    .blogs-frist-box{
+        width: 33%;
+    }
+    
+    .blogs-second-box{
+        width: 33%;
+    }
+    
+    .blogs-thrid-box{
+        width: 33%;
+    }
+    
+    .blogs-fourth-box{
+        width: 33%;
+    }
+    
+    .blogs-second-row{
+        display: flex;
+        margin-bottom: 20px;
+        }
+    
